@@ -1,1 +1,1 @@
-{"functions":{"api/index.php":{"runtime":"now-php@0.0.9"}},"name":"php-example"}
+{"functions":{"api/mail.php":{"runtime":"now-php@0.0.9"}},"name":"php-example"}
