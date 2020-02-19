@@ -25,6 +25,30 @@
             <li class="py-2">Open generated <strong>*.now.sh</strong> domain [<a class="text-pink-800" href="https://now-examples-php.now.sh">demo</a>]</li>
             <li class="py-2">Discover <strong>*.now.sh/api/</strong> PHP functions [<a class="text-pink-800" href="https://now-examples-php.now.sh/api/">demo</a>] </li>
         </ol>
+        
+         <form id="contact-form" class="contact-form" action="mail.php" method="post">
+            <div class="col-md-4">
+                <input class="form-control2" name="name" required="" placeholder="Name*" type="text">
+            </div>
+            <div class="col-md-4">
+                <input class="form-control2" name="email" required="" placeholder="Email*" type="email">
+            </div>
+            <div class="col-md-4">
+                <input class="form-control2" name="telephone" required="" placeholder="Tel" type="text">
+            </div>
+            <div class="col-md-12">
+                <input class="form-control2" name="subject" required="" placeholder="Subject*" type="text">
+            </div>
+            <div class="col-md-12 text-center">
+                <div class="home-2-text-area">
+                    <textarea class="form-control2" name="message" required="" placeholder="Message"></textarea>
+                </div>
+                <button class="submit" type="submit">
+                    Send Message 
+                    <i class="fa fa-paper-plane" aria-hidden="true"></i>
+                </button>
+            </div>
+        </form>
     </div>
 </body>
 </html>
